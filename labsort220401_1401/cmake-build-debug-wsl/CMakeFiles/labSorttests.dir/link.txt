@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/labSorttests.dir/test/testSort.cpp.o CMakeFiles/labSorttests.dir/src/mymergesort.cpp.o CMakeFiles/labSorttests.dir/src/myquicksort.cpp.o CMakeFiles/labSorttests.dir/src/myradixsort.cpp.o  -o labSorttests  lib/libgtestd.a lib/libgtest_maind.a liblibLabSort.a lib/libgtestd.a -lpthread 

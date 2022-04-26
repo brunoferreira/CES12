@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/sortauxfuncs.h
+fstream
+-
+sstream
+-
+string
+-
+vector
+-
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+ostream
+-
+cassert
+-
+iomanip
+-
+
+../src/mysortfunctions.h
+iostream
+-
+algorithm
+-
+vector
+-
+sortauxfuncs.h
+-
+
+/mnt/c/Users/bruno/Downloads/labsort220401_1401/src/myquicksort.cpp
+mysortfunctions.h
+-
+

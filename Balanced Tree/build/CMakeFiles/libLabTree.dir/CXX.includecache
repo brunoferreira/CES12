@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/IndexFactory.h
+IndexPointsStlMultimap.h
+-
+IndexPointsAluno.h
+-
+
+../lib/IndexPointsAbstract.h
+vector
+-
+
+../lib/IndexPointsStlMultimap.h
+vector
+-
+map
+-
+IndexPointsAbstract.h
+-
+
+../src/IndexPointsAluno.h
+vector
+-
+map
+-
+IndexPointsAbstract.h
+-
+string
+-
+
+/home/bruno/codes/CES12/Balanced Tree/lib/IndexFactory.cpp
+IndexFactory.h
+-
+

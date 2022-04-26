@@ -1,0 +1,5 @@
+if(EXISTS "/home/bruno/codes/CES12/Balanced Tree/build/labTreetests[1]_tests.cmake")
+  include("/home/bruno/codes/CES12/Balanced Tree/build/labTreetests[1]_tests.cmake")
+else()
+  add_test(labTreetests_NOT_BUILT labTreetests_NOT_BUILT)
+endif()

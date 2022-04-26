@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/bruno/Downloads/labsort220401_1401/build-vscode/labSorttests[1]_tests.cmake")
+  include("/mnt/c/Users/bruno/Downloads/labsort220401_1401/build-vscode/labSorttests[1]_tests.cmake")
+else()
+  add_test(labSorttests_NOT_BUILT labSorttests_NOT_BUILT)
+endif()
